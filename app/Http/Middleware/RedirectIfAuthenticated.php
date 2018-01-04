@@ -9,6 +9,11 @@ class RedirectIfAuthenticated
 {
     /**
      * Handle an incoming request.
+     *Rediricionar login
+     *
+     *
+     *
+     *
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
