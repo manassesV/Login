@@ -1,0 +1,30 @@
+.nav-tabs-custom{
+    font-family: times;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.aqui{
+    border: 1px solid;
+    border-color: #D3D3D3;
+    background-color:#FFFFF0;
+}
+table#tables tr td { /* Toda a tabela com fundo creme */
+    background: #F0FFF0;
+} 
+table#tables tr{ /* Toda a tabela com fundo creme */
+   font-family: Arial;
+   font-size: 14px;
+} 
+table#tables tr td:last-child{ /* Toda a tabela com fundo creme */
+   text-align: center;
+   font-size: 20px;
+} 
+table#alter tr.dif td {
+    background: #eee; /* Linhas com fundo cinza */
+    font-size: 14px;
+}
+#chart-container {
+    width: 800px;
+}
