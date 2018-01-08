@@ -200,6 +200,10 @@ header nav ol li a:hover {
     transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
 }
 
+.registro{
+    margin-top: 30px;
+}
+
 .erro{
     height: 20px;
     width: 80%; 

@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp6489999/www/Login/config/app.php</file>
-            <file>file:/C:/wamp6489999/www/Login/resources/views/auth/login.blade.php</file>
-            <file>file:/C:/wamp6489999/www/Login/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/wamp6489999/www/Login/app/Http/Manipular/TurmaManipular.php</file>
+            <file>file:/C:/wamp6489999/www/Login/app/User.php</file>
+            <file>file:/C:/wamp6489999/www/Login/app/Http/Controllers/TurmaController.php</file>
+            <file>file:/C:/wamp6489999/www/Login/app/Turma.php</file>
+            <file>file:/C:/wamp6489999/www/Login/routes/web.php</file>
+            <file>file:/C:/wamp6489999/www/Login/app/Http/Manipular/TurmaInterface.php</file>
         </group>
     </open-files>
 </project-private>

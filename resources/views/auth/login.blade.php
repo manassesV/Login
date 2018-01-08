@@ -23,32 +23,22 @@
                     <div class="form_usu" >
                         <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}"  >
                             <input   type="email" name="email" class="form-control" id="email" placeholder="Informe Email *" value="{{old('email')}}" required autofocus/>
-                            @if($errors->has('email'))
-                            <span class="glyphicon glyphicon-envelope form-control-feedback">
-                                <strong>{{ $errors->first('email') }}</strong>
-                            </span> 
-                            @endif
                         </div>
                         <div class="form-group has-feedback{{ $errors->has('password') ? ' has-error' : '' }}">
                             <input type="password" name="password" class="form-control" id="password" placeholder="Informe a Senha*" maxlength="10"/>
-                            @if($errors->has('password'))
-                            <span class="glyphicon glyphicon-lock form-control-feedback">
-                                <strong>{{$errors->first('password')}}</strong>
-                            </span>
-                            @endif
-                            </span>
-                        </div>
+                        </div>                              
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label class="text-left">
-                                        <input type="checkbox" name="remember" value="{{ old('remember') ? 'checked' : '' }}"> Lembrar-Me
-                                    </label>
-                                </div>
+                            <div class="col-md-12 col-md-offset-1">
+                                @if ($errors->has('email'))
+                                <div class="msg-erro">{{ $errors->first('email') }}</div>
+                                @endif    
+                                @if ($errors->has('password'))
+                                <div class="msg-erro">{{ $errors->first('password') }}</div>
+                                @endif 
                             </div>
                         </div>
                         <div>
-                            <button type="submit" class="btn btn-danger logar">ENTRAR<span class="glyphicon glyphicon-chevron-right"></span></>
+                            <button type="submit" class="btn btn-danger logar">ENTRAR<span class="glyphicon glyphicon-chevron-right"></span>
                         </div>                                  
                         <div id="text">
                             <strong>OU</strong>
